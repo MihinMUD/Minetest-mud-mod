@@ -3,7 +3,7 @@ minetest.register_node("mud:mud", {
     tiles = {"mud.png"},
     groups = {crumbly = 3, soil = 1},
     sounds = {
-        footstep = {name = "mud"}
+        footstep = {name = "mud"},
         dug = {name = "mud"}   
 },
 })

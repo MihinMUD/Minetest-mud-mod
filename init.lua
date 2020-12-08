@@ -48,8 +48,3 @@ minetest.register_craft({
     output = "mud:mud",
     recipe = {{"default:dirt" , "default:dirt" }}
 })
-
-minetest.register_craft({
-    output = "default:diamond",
-    recipe = {{"mud:mud" }}
-})
